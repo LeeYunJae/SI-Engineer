@@ -26,7 +26,7 @@ public class Calculator extends JFrame {
 	
 	public Calculator() {
 		design() ;
-		addWindowListener(new WindowAdapter() {	//익명클래스 
+		addWindowListener(new WindowAdapter() {	//익명클래스  
 			//WindowListener를 implements한 WindowAdapter를 익명클래스로 생성
 			//WindowListener는 interface이므로 모든 method를 overriding해야하므로 효율x
 			//WindowAdapter는 WindowListener의 모든 method를 overriding해논 클래스이므로 우리는 이클래스중에서 필요한 method만사용할수o
