@@ -9,6 +9,7 @@ public class One implements ActionListener{
 	JTextField text ;
 	
 	public One(JTextField text) {
+		System.out.println("1»ý¼º");
 		// TODO Auto-generated constructor stub
 		this.text = text ;
 	}
